@@ -1,0 +1,6 @@
+node_modeles/
+
+*.tmp
+*.log
+
+tmp/

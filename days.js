@@ -4,10 +4,8 @@ const revise = new Revise({auth: AUTH_TOKEN});
 
 const API = async function() {
   const options = [
-    {day: 'best', image: "https://freeimage.host/i/HBOt2jI"},
-    {day: 'best', image: "https://freeimage.host/i/HBeRj8g"}
-// https://revise-testing.fra1.cdn.digitaloceanspaces.com/players/silver.png"}
-
+    {day: 'best', image: "https://iili.io/HBOt2jI.md.png"},
+    {day: 'best', image: "https://iili.io/HBeRj8g.md.png"}
   ]
   const randomIndex =  Math.floor(Math.random() * 2)
   return options[randomIndex];
@@ -27,5 +25,3 @@ async function run() {
 }
 run()
 
-// https://freeimage.host/i/HBOt2jIhttps://freeimage.host/i/HBeROAJ
-// https://freeimage.host/i/HBeRj8g

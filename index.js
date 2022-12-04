@@ -7,7 +7,7 @@ async function run() {
     const collection = await revise.addCollection({name: "Good Vibes", uri: "govo"})
 
 	const nft = await revise.addNFT({
-    image: 'https://freeimage.host/i/HBOt2jI',
+    image: 'https://iili.io/HBeRj8g.md.png',
     name: 'Good Day',
     tokenId: '1',
     description: 'Forward with exceptional abilities. Legend to have on your team'
@@ -19,3 +19,4 @@ console.log(nft)
 
 }
 run()
+

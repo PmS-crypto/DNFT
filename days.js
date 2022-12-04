@@ -4,10 +4,14 @@ const revise = new Revise({auth: AUTH_TOKEN});
 
 const API = async function() {
   const options = [
-    {day: 'best', image: "https://iili.io/HBOt2jI.md.png"},
+    {day: 'best', image: "https://iili.io/HBrX7ql.md.png"},
+    {day: 'best', image: "https://iili.io/HBrwH57.png"},
+    {day: 'best', image: "https://iili.io/HBrwodB.md.png"},
+    {day: 'best', image: "https://iili.io/HBrwB0Q.md.png"},
+    {day: 'best', image: "https://iili.io/HBrwB0Q.png"},
     {day: 'best', image: "https://iili.io/HBeRj8g.md.png"}
   ]
-  const randomIndex =  Math.floor(Math.random() * 2)
+  const randomIndex =  Math.floor(Math.random() * 6)
   return options[randomIndex];
 }
 
